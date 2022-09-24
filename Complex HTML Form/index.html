@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Foodies </title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Chef's Recipe <i class="fa fa-book" aria-hidden="true"></i></h1>    
+        </div> 
+    </header>
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="banner">
+        <div class="container">
+        </div>
+    </section>   
+    <div class="container">
+        <div>
+            <h1 id="main-title">My Recipe</h1>
+        </div>
+        <section id="my recipe">
+            <form id="form" name="recipe" method="post" datat-netlify="true">
+                
+                    <label class="label" for="name">Name</label>
+                    <br>
+                    <input class="input" type="text" name="name" placeholder="John Hopkins" required/>
+                    <br>
+                    <label class="label" for="email">Email</label>
+                    <br>
+                    <input class="input" type="email" name="email" placeholder="john@email.com" required/>
+                    <br>
+                    <label class="label" for="phone" >Phone</label>
+                    <br>
+                    <input class="input" type="Telephone" name="phone" placeholder="07123456789" maxlength="11"/>
+                    <br>
+                    <label  class="label" for="age">Age</label>
+                    <br>
+                    <input class="input" type="number" name="age" placeholder="30" min="1" max="100"/>
+                    <br>
+                    <br>
+                    <label class="label" for="date of birth">Date of Birth</label>
+                    <br>
+                    <input class="inpurt" type="date" name="date of birth" placeholder="01/01/1999"/>
+                    <br>
+                    <br>
+                    <label class="label">Gender</label><br>
+                        <input type="radio" value="male" name="gender"/>
+                        <label  for="male">Male</label>
+                        <br>
+                        <input type="radio" value="female" name="gender"/>
+                        <label  for="female">Female</label>
+                        <br>
+                        <br>
+                    <label class="label">Favorite Cuisine</label>
+                    <p>
+                        <input type="checkbox" name="french">
+                        <label for="french">French</label><br>
+                        <input type="checkbox" name="Italian">
+                        <label for="italian">Italian</label><br>
+                        <input type="checkbox" name="Spanish">
+                        <label for="spanish">Spanish</label><br>
+                        <input type="checkbox" name="Arabic">
+                        <label for="arabic">Arabic</label>
+                    </p>
+                    <br>
+                    <label class="label" for="apron color">Select your favorite apron color</label>
+                    <input type="color" name="apron color"><br><br>
+                    <label class="label">Chef's Biography</label><br>
+                        <textarea name="biography" rows="10" cols="30" placeholder="Short biography"></textarea>
+                    <br>
+                    <label class="label" for="recipefile">Upload your latest recipe</label>
+                    <br>
+                    <input type="file" name="recipefile" multiple>
+                    <br>
+                    <br>
+                    <label class="label" for="homepage">Your website:</label>
+                    <input type="url" name="homepage">
+                    <br>
+                    <br>
+                    <input id="resetButton" type="reset">
+                    <br>
+                    <input class="submit-button" type="submit" value="SEND"/> 
+               </form>
+        </section>
+    </div> <!-- container -->
+    <footer id="footer">
+        <p>Copyright &copy; Chef's Recipe 2022</p>
+    </footer>
+</body>
+</html>
