@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Car Fix</title>
+</head>
+<body>
+   <header class="header-wrapper">
+      <div class="header-logo">
+        <img class="logo-image" alt="company logo" src="images/company-logo.png">
+      </div>
+      <nav class="nav-bar">
+          <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </header>
+    <div class="banner-wrapper">
+      <div class="banner-heading">
+        <h2>We Fix</h2>
+        <br>
+        <ul>
+          <li>Transmission</li>
+          <li>Brakes</li>
+          <li>Exhaust</li>
+          <li>MOT Repairs</li>
+          <li>Battery</li>
+          <li>And more...</li>
+        </ul>
+      </div>
+      <button class="red-button" type="button">Get a Quote</button>
+    </div>
+    <main>
+      <div class="container">
+        <div class="main-heading">
+          <h2>Get in touch</h2> 
+        </div>
+        <section class="main-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section> 
+        <section class="contact-form">
+                <form id="form" name="contact" method="post" data-netlify="true">
+                    
+                        <label class="label" for="name">Name*</label>
+                        <br>
+                        <input class="input" type="text" name="name" placeholder="John Hopkins" value="" required/>
+                        <br>
+                        <label class="label" for="email">Email*</label>
+                        <br>
+                        <input class="input" type="email" name="email" placeholder="john@email.com" value="" required/>
+                        <br>
+                        <label class="label" for="phone" >Phone*</label>
+                        <br>
+                        <input class="input" type="Telephone" name="phone" placeholder="07123456789" value="" maxlength="11"/>
+                        
+                        <br>
+                        <label class="label">Preffered contact option</label><br>
+                            <input type="radio" value="phone" name="contact option"/>
+                            <label  for="phone">By Phone</label>
+                            <br>
+                            <input type="radio" value="contact option" name="contact option"/>
+                            <label  for="email">By Email</label>
+                            <br>
+                            <br>
+                        <label class="label">Subject</label>
+                        <p>
+                            <input type="checkbox" name="general" value="general">
+                            <label for="general">General enquiry</label><br>
+                            <input type="checkbox" name="service" value="service">
+                            <label for="service">Service appointment</label><br>
+                            <input type="checkbox" name="quote" value="quote">
+                            <label for="quote">Quote</label><br>
+                            <input type="checkbox" name="complaint" value="complaint">
+                            <label for="complaint">Complaint</label><br>
+                        </p>
+                        <br>
+                        <label class="label">Message</label><br>
+                            <textarea name="message" rows="10" cols="30" placeholder="type your message here"></textarea>
+                        <br>
+                        <p>(*) Are required fields</p>
+                        <br>
+                        <input id="resetButton" type="reset" value="Reset input">
+                        <br>
+                        <input class="submit-button" type="submit" value="SEND"/> 
+                </form>
+            </section>
+      </div> 
+    </main>
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-nav">
+        <h2 class="footer-heading">Follow us</h2>
+        <ul class="footer-menu">
+          <li class="footer-item"><a href=""><img class="footer-img" src="images/instagram.png"></a><a class="footer-link" href="">Instagram</a></li>
+          <li class="footer-item"><a href=""><img class="footer-img" src="images/facebook.png"></a><a class="footer-link" href="">Facebook</a></li>
+          <li class="footer-item"><a href=""><img class="footer-img" src="images/twitter.png"></a><a class="footer-link" href="">Twitter</a></li>
+        </ul>
+      </div>
+      <p class="copy-right">Copyright 2022</p>
+      </div>
+  </footer>
+</body>
+</html>
