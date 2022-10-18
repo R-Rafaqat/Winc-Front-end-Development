@@ -1,0 +1,18 @@
+@mixin grid-tablet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+/* Tablet media query */
+
+@media screen and (min-width: 700px) {
+    
+    .portfolio-wrapper {
+        @include grid-tablet();
+    }
+}
