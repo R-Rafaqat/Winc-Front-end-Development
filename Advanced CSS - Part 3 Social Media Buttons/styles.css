@@ -1,0 +1,57 @@
+.social-media.blog {
+  background-color: #e17b77;
+}
+
+.social-media.twitter {
+  background-color: #00aced;
+}
+
+.social-media.linkedin {
+  background-color: #007bb6;
+}
+
+.social-media.facebook {
+  background-color: #3b5998;
+}
+
+.social-media.github {
+  background-color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #c3cfe2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.social-wrapper {
+  padding: 0;
+  min-width: 260px;
+  position: fixed;
+  top: 50%;
+  left: calc(100% - 50px);
+  transform: translateY(-50%);
+}
+.social-wrapper .social-media {
+  align-items: center;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.social-wrapper .social-media:hover {
+  transform: translateX(calc(-100% + 50px));
+}
+.social-wrapper i {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 50px;
+}
+.social-wrapper a {
+  color: #fff;
+  padding: 0 10px;
+}/*# sourceMappingURL=styles.css.map */
